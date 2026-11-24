@@ -43,7 +43,7 @@
     .about h2 { font-size:clamp(30px,4vw,42px); margin:0 0 18px; letter-spacing:-.03em; }
     .about h2::after { content:""; display:block; width:70px; height:4px; border-radius:5px; background:#1681ff; margin-top:14px; }
     .about p { color:var(--muted); font-size:17px; line-height:1.8; margin:0; max-width:650px; }
-    .about-art { min-height:220px; border-radius:18px; background:url('public/assets/banner.png') center 68%/cover; border:1px solid #314664; box-shadow:0 20px 50px #0003; }
+    .about-art { min-height:220px; border-radius:18px; background:url('assets/banner.png') center 68%/cover; border:1px solid #314664; box-shadow:0 20px 50px #0003; }
     footer { padding:26px 24px; border-top:1px solid #1c2c43; text-align:center; color:#8298b5; font-size:14px; }
     @media(max-width:700px) { header {height:66px;} .star {width:36px;height:36px;} .main-logo {max-height:145px;} nav {gap:16px;} nav a {font-size:14px;} nav .play-link {padding:9px 14px;} .hero {min-height:500px; background-position:58% center;} .edition-grid {grid-template-columns:1fr;} .edition {justify-content:flex-start;} .about {grid-template-columns:1fr; gap:24px;} .about-art {min-height:190px;} main {padding-top:48px;} }
     @media(prefers-reduced-motion:reduce) { *,*::before,*::after {scroll-behavior:auto!important; transition:none!important;} }
@@ -52,13 +52,13 @@
 <body>
   <header>
     <a class="brand" href="#inicio" aria-label="SãoCraft — página inicial">
-      <img class="star" src="public/assets/icon.png" alt="SãoCraft" />
+      <img class="star" src="assets/icon.png" alt="SãoCraft" />
     </a>
     <nav aria-label="Navegação principal"><a href="#inicio">Início</a><a class="play-link" href="#jogar">Jogar</a></nav>
   </header>
   <section class="hero" id="inicio">
     <div class="hero-content">
-      <h1 class="logo-title"><img class="main-logo" src="public/assets/saocraft.png" alt="SãoCraft" /></h1>
+      <h1 class="logo-title"><img class="main-logo" src="assets/saocraft.png" alt="SãoCraft" /></h1>
       <p class="subtitle">Seu servidor, sua diversão!</p>
       <div class="buttons"><a class="button button-primary" href="#jogar">Jogar</a><a class="button button-secondary" href="#sobre">Sobre</a></div>
     </div>
